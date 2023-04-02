@@ -8,7 +8,7 @@ st.title('大语言模型在客服中心的应用前景')
 def show_pdf(file_path):
     with open(file_path, "rb") as f:
         base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-    pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="800" height="800" type="application/pdf"></iframe>'
+    pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="1200" height="800" type="application/pdf"></iframe>'
     st.markdown(pdf_display, unsafe_allow_html=True)
 
 show_pdf("https://github.com/ahalamora1981/whitepaper_llm_cc/blob/main/llm_for_cc.pdf")
