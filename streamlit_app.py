@@ -12,7 +12,7 @@ file_path = "llm_for_cc.pdf"
 # 加载PDF文件
 with open(file_path, "rb") as f:
     base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="1200" height="800" type="application/pdf"></iframe>'
+pdf_display = f'<div src="data:application/pdf;base64,{base64_pdf}" width="1200" height="800" type="application/pdf"></div>'
 st.markdown(pdf_display, unsafe_allow_html=True)
 
 # st.markdown("""
