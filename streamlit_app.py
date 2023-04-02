@@ -1,8 +1,11 @@
 import streamlit as st
 import base64
+import os
+
 
 # 设置页面标题
 st.title('大语言模型在客服中心的应用前景')
+st.write(os.getcwd())
 
 # 加载PDF文件
 def show_pdf(file_path):
