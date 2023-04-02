@@ -7,7 +7,7 @@ import os
 st.title('大语言模型在客服中心的应用前景')
 st.write(os.getcwd())
 
-file_path = "llm_for_cc.pdf"
+file_path = "llm_for_c.pdf"
 
 # 加载PDF文件
 with open(file_path, "rb") as f:
