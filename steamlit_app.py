@@ -11,4 +11,4 @@ def show_pdf(file_path):
     pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="800" height="800" type="application/pdf"></iframe>'
     st.markdown(pdf_display, unsafe_allow_html=True)
 
-show_pdf("D:\Dev\OpenAI\llm_for_cc\llm_for_cc.pdf")
+show_pdf("https://github.com/ahalamora1981/whitepaper_llm_cc/blob/main/llm_for_cc.pdf")
