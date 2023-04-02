@@ -14,4 +14,4 @@ def show_pdf(file_path):
     pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="1200" height="800" type="application/pdf"></iframe>'
     st.markdown(pdf_display, unsafe_allow_html=True)
 
-show_pdf("llm_for_cc.pdf")
+show_pdf("/app/whitepaper_llm_cc/llm_for_cc.pdf")
